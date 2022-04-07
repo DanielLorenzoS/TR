@@ -1,3 +1,27 @@
+@media only screen and (max-width: 1050px) {
+    .right, .left {
+        position: absolute;
+    }
+    .left {
+        margin-left: -100px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .product {
+        max-width: 280px;
+        max-height: 280px;
+        min-width: 280px;
+        min-height: 280px;        
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .package {
+        margin: 0;
+    }
+}
+
 @media only screen and (max-width: 550px) {
     body {
         background: #0AD800;
@@ -36,15 +60,11 @@
         border-bottom: 4px double #002605;
         border-radius: 8px;
     }
-    .title-responsive {
-        margin-top: 400px;
-        font-size: 35px;
-        color: rgb(4, 36, 0);
-        text-decoration: underline;
-    }
     #titleCoffe-responsive {
+        margin-top: 400px;
         font-size: 30px;
         color: rgb(4, 36, 0);
+        text-decoration: underline;
     }
     .producto {
         padding-bottom: 15px;
@@ -70,6 +90,10 @@
     }
     .mail {
         margin-bottom: 200px;
+    }
+    .i {
+        color: #084000;
+        text-decoration: underline;
     }
 }
 
