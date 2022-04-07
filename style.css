@@ -87,7 +87,7 @@ header {
 }
 .package {
     border-bottom: 7px double rgb(10, 88, 0);
-    margin: 100px 150px 0px 150px;
+    margin: 10px 150px 0 150px;
     border-radius: 5px;
     color: #4b1d01;
 }
@@ -102,12 +102,15 @@ header {
     min-height: 320px;
     border-radius: 10px;
     margin: 10px auto;
-    border: 3px solid #4b1d01;
+    border: 3px solid #002605;
+}
+.left {
+    transform: rotate(180deg);
 }
 .left,.right,.left2,.right2 {
-    margin: 80px 0;
-    max-width: 100px;
-    max-height: 100px;
+    margin: 120px 0;
+    max-width: 80px;
+    max-height: 80px;
     opacity: .7;
     transition: .5s ease-in-out;
 }
@@ -133,6 +136,7 @@ header {
 }
 .info h3 a {
     font-size: 22px;
+    color: #612500;
 }
 .welcome {
     overflow: hidden;
@@ -195,7 +199,9 @@ header {
     border-bottom: 2px solid #002605;
     display: flex;
 }
-
+#largo, #ancho, #alto {
+    display: inline-block;
+}
 input { 
    -webkit-appearance: textfield !important;
     margin: 0;
