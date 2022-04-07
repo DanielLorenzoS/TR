@@ -1,0 +1,92 @@
+@media only screen and (max-width: 550px) {
+    body {
+        background: #0AD800;
+
+    }
+    .a {
+        display: none;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .imgmenu {
+        display: block;
+        max-width: 60px;
+        max-height: 50px;
+        margin: 10px;
+        margin-bottom: 2px;
+        cursor: pointer;
+    }
+    .welcome, .second, .third {
+        display: none;
+    }
+    .container-res {
+        display: block;
+        margin-top: 40px;
+        text-align: center; 
+    }
+    .h1 {
+        margin: 10px auto;
+        margin-top: 150px;
+        padding: 10px;
+    }
+    .h3 {
+        margin: 10px 20px;
+        padding: 20px;
+        border-bottom: 4px double #002605;
+        border-radius: 8px;
+    }
+    .title-responsive {
+        margin-top: 400px;
+        font-size: 35px;
+        color: rgb(4, 36, 0);
+        text-decoration: underline;
+    }
+    #titleCoffe-responsive {
+        font-size: 30px;
+        color: rgb(4, 36, 0);
+    }
+    .producto {
+        padding-bottom: 15px;
+        max-width: 250px;
+        max-height: 250px;
+        min-width: 250px;
+        min-height: 250px;
+        border-bottom: 2px solid rgb(4, 36, 0);
+        border-radius: 6px;
+    }
+    .touch {
+        padding: 1px;
+        font-size: 12px;
+        margin: 10px auto;
+        width: 70%;
+        border-radius: 10px;
+        color: #fff;
+        background: #002605;
+        transition: 4s ease-out;
+    }
+    .phone {
+        margin-top: 200px;
+    }
+    .mail {
+        margin-bottom: 200px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .producto {
+        max-width: 220px;
+        max-height: 220px;
+        min-width: 220px;
+        min-height: 220px;
+    }
+}
+@media only screen and (max-width: 270px) {
+    .imgmenu {
+        max-width: 50px;
+        max-height: 40px;
+    }   
+    .title {
+        font-size: 18px;
+    }
+}
