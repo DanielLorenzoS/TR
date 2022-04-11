@@ -85,11 +85,18 @@
         background: #002605;
         transition: 4s ease-out;
     }
-    .phone {
+    .down {
         margin-top: 200px;
     }
-    .mailBottom {
+    .mail {
         margin-bottom: 200px;
+    }
+    .cont-phone-res {
+        display: flex;
+        justify-content: center;
+    }
+    .cont-phone-res img{
+        margin-top: 15px;
     }
     .i {
         color: #084000;
