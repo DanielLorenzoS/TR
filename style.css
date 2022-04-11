@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-
 * {
     scroll-behavior: smooth;
 }
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: cursive;
 }
 #header {
     color: #fff;
@@ -120,18 +118,18 @@ header {
 .third {
     background: #E8FF28;
     margin: 0;
-    margin-top: -21px;
+    margin-top: -72px;
     text-align: center;
-    height: 60vh;
+    height: 50vh;
     color: #222;
     
 }
 .info{
     width: 60%;
     margin: 50px auto;
-    padding: 30px;
-    display: inline-block;
-    
+    padding: 100px 30px;
+    display: flex;
+    flex-direction: column;   
     box-shadow: 4px 3px 3px #612500;
 }
 .info h3 a {
@@ -139,10 +137,16 @@ header {
     color: #612500;
 }
 .imgPhone, .imgWhats, .imgMail {
+    margin-right: 8px;
     display: inline-block;
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 30px;
+    max-height: 30px;
     opacity: .8;
+}
+.cont-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .welcome {
     overflow: hidden;
@@ -184,7 +188,7 @@ header {
     text-align: center;
     right: 0;
     left: 0;
-    margin: 56px auto;
+    margin: 41px auto;
 	z-index: 10;
     display: flex;
     flex-direction: column;
